@@ -22,7 +22,7 @@ async def start(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
+                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/torcxemilia")
                     ]
                 ]
             ),
@@ -36,7 +36,7 @@ async def help(client, message):
     try:
         await message.reply_text(
             text=script.HELP_MSG,
-            disable_web_page_preview=True,
+            disable_web_page_preview=True, mj
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -68,7 +68,7 @@ async def about(client, message):
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE", url="https://github.com/TroJanzHEX/Auto-Filter-Bot")
+                            "SOURCE CODE", url="https://t.me/torcxemilia")
                     ]
                 ]
             ),
